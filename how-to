@@ -1,0 +1,18 @@
+run
+yarn init -y
+
+To start project
+
+
+yarn add express cors dotenv morgan @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
+
+
+run 
+npx tsc --init
+
+copy contents of tsconfig.json to the generated one or just change it appropriately.
+
+In package.json
+
+Add 
+"type": "commonjs",
