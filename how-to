@@ -16,3 +16,5 @@ In package.json
 
 Add 
 "type": "commonjs",
+"start": "node ./build/index.js",
+"build": "tsc -p .",
