@@ -4,7 +4,7 @@ yarn init -y
 To start project
 
 
-yarn add express cors dotenv morgan @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
+yarn add typescript express cors dotenv morgan @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
 
 
 run 
