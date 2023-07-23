@@ -18,3 +18,4 @@ Add
 "type": "commonjs",
 "start": "node ./build/index.js",
 "build": "tsc -p .",
+"dev": "nodemon ./src/index.ts"
