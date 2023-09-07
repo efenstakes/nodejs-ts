@@ -15,9 +15,14 @@ npx tsc --init
 copy contents of tsconfig.json to the generated one or just change it appropriately.
 
 In package.json
-
-Add 
+Add: 
 "type": "commonjs",
 "start": "node ./build/index.js",
 "build": "tsc -p .",
 "dev": "nodemon ./src/index.ts"
+
+
+To get jwt keys:
+1. search generate public and private key online. Get the 2 keys.
+2. search base64 online and encode the keys then they can be used in .env
+
