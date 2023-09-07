@@ -6,7 +6,7 @@ To start project
 
 yarn add typescript express cors dotenv morgan
 
-yarn add -D @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
+yarn add -D ts-node @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
 
 
 run 
