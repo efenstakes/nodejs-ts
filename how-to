@@ -3,7 +3,14 @@ yarn init -y
 
 To start project
 
+## For type-graphql,..
 
+yarn add @typegoose/typegoose apollo-server-core apollo-server-express class-validator cors dotenv express 
+graphql@15.3.0 jsonwebtoken mongoose morgan reflect-metadata type-graphql typescript
+
+yarn add -D ts-node @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
+
+## Otherwise:
 yarn add typescript express cors dotenv morgan
 
 yarn add -D ts-node @types/express @types/express @types/socket.io @types/node @types/cors @types/dotenv @types/morgan
